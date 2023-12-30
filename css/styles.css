@@ -29,10 +29,8 @@ img {
 
 ul {
   list-style: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
+ margin: 0;
+ padding: 0;
 
 .visually-hidden {
   position: absolute;
@@ -49,7 +47,7 @@ ul {
 
 .container {
   width: 1158px;
-padding: 0 15px 0 15px
+  padding: 0 15px 0 15px;
   margin: 0 auto;
 }
 
@@ -85,7 +83,7 @@ padding: 0 15px 0 15px
 
 .header-navigation {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .header-logo {
@@ -96,17 +94,16 @@ padding: 0 15px 0 15px
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: flex;
-  align-items: center;
+  margin-right: 76px;
 }
 
 .logo-container {
-  margin-right: 76px;
+  /* margin-right: 76px; */
 }
 
 .header-container {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 
 .logo-item {
@@ -191,7 +188,7 @@ padding: 0 15px 0 15px
   padding: 16px 32px;
   border-radius: 4px;
   border: none;
-  min-width: 169px
+  min-width: 169px;
 }
 
 /*? ____________________________ */
@@ -316,7 +313,7 @@ padding: 0 15px 0 15px
   justify-content: center;
   align-items: center;
   gap: 48px 24px;
- padding: 120px 0 120px 0;
+  padding: 120px 0 120px;
 }
 .pfl-item {
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
@@ -329,7 +326,8 @@ padding: 0 15px 0 15px
   flex-direction: column;
   justify-content: center;
   gap: 8px;
- padding: 32px 16px;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 
 .pfl-img {
