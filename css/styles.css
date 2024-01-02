@@ -146,14 +146,18 @@ ul {
 /*? _____________Hero___________ */
 
 .hero {
+  padding: 188px 0;
+  background-color: #2e2f42;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-container {
-  background-color: #2e2f42;
+  /* background-color: #2e2f42; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 188px 0;
+  /* padding: 188px 0; */
 }
 
 .hero-title {
@@ -187,10 +191,12 @@ ul {
 /*? _____________Features___________ */
 
 .features {
+  padding: 120px 0;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .feature-container {
-  padding: 120px 0;
 }
 
 .features-list {
@@ -227,10 +233,14 @@ ul {
 /*? _____________Team___________ */
 
 .team {
-}
-.team-container {
   padding: 120px 0;
+  max-width: 1440px;
+  margin: 0 auto;
   background-color: #f4f4fd;
+}
+
+.team-container {
+  /* padding: 120px 0; */
 }
 
 .team-title {
@@ -287,10 +297,13 @@ ul {
 /*? _____________Portfolio___________ */
 
 .pfl {
+  padding: 120px 0;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .pfl-container {
-  padding: 120px 0;
+  /* padding: 120px 0; */
 }
 
 .pfl-title {
@@ -344,14 +357,16 @@ ul {
 /*? _____________Footer___________ */
 
 .footer {
+  padding: 100px 0;
+  background-color: #2e2f42;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .footer-container {
   display: flex;
   flex-direction: column;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-color: #2e2f42;
+  /* background-color: #2e2f42; */
 }
 .footer-logo {
   color: #4d5ae5;
