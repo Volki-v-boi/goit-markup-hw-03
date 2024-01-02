@@ -364,9 +364,9 @@ ul {
 }
 
 .footer-container {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  /* background-color: #2e2f42; */
+  background-color: #2e2f42; */
 }
 .footer-logo {
   color: #4d5ae5;
@@ -378,7 +378,6 @@ ul {
   text-transform: uppercase;
   display: inline-block;
   margin-bottom: 16px;
-  display: inline-block;
 }
 
 .footer-logo-item {
